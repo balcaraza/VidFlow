@@ -1,4 +1,6 @@
 const videosContainer = document.querySelector('.videos__container')
+console.log(verde);
+
 
 async function fetchAndDisplayVideos() {
   try {
