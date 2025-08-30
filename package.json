@@ -1,0 +1,19 @@
+{
+  "name": "vidflow-app",
+  "version": "1.0.0",
+  "description": ".",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balcaraza/VidFlow.git"
+  },
+  "author": "balcaraza industries",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balcaraza/VidFlow/issues"
+  },
+  "homepage": "https://github.com/balcaraza/VidFlow#readme"
+}
