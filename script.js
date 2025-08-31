@@ -1,9 +1,14 @@
+console.log(axios);
+
+
 const videosContainer = document.querySelector(".videos__container");
 
 async function fetchAndDisplayVideos() {
   try {
-    const fetchRequest = await fetch("http://localhost:3000/videos");
-    const videos = await fetchRequest.json();
+    const fetchRequest = await axios.get("http://localhost:3000/videos");
+    console.log(fetchRequest);
+    
+    const videos = await fetchRequest.data;
 
     videos.forEach((video) => {
       if (video.categoria === "") {

@@ -4,7 +4,9 @@
   "description": ".",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api-local": "json-server --watch ./backend/videos.json",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -17,9 +19,9 @@
   },
   "homepage": "https://github.com/balcaraza/VidFlow#readme",
   "devDependencies": {
-    "@eslint/js": "^9.34.0",
-    "eslint": "^9.34.0",
-    "globals": "^16.3.0",
+    "@eslint/js": "9.34.0",
+    "eslint": "9.34.0",
+    "globals": "16.3.0",
     "json-server": "^0.17.4",
     "prettier": "3.5.1"
   }
