@@ -9,6 +9,7 @@ async function fetchAndDisplayVideos() {
       if (video.categoria === "") {
         throw new Error("El video no tiene categoría");
       }
+
       videosContainer.innerHTML += `
                 <li class="videos__item">
                     <iframe src="${video.url}" title="${video.title}" frameborder="0" allowfullscreen></iframe>
